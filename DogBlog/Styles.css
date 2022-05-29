@@ -1,0 +1,93 @@
+
+*{
+    box-sizing: border-box;
+}
+body article {
+    display: block;
+}
+.header {
+    border-bottom: 3px solid black;
+}
+.brand {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+.quarter {
+    width: 25%;
+}
+.story {
+    border-right: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.half {
+    width: 50%;
+}
+.three-quarter {
+    width: 75%;
+}
+.article-img {
+    width: 100%;
+}
+.img-caption{
+    font-size: 20px;
+    font-style: italic;
+}
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+.article-text {
+    font-size: 16px;
+    text-align: center;
+}
+.other-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.site-section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.section-link {
+    Color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.section-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+.site-section-poli {
+    background-color: #034159;
+}
+.site-section-tech {
+    background-color:#025951;
+}
+.site-section-local {
+    background-color: #02735E;
+}
+.site-section-opinion {
+    background-color:#038C3E;
+}
+.site-section-sports {
+    background-color:#0CF25D;
+}
